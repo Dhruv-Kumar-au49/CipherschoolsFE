@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    height: 80px;
+    box-shadow: 0px 3px 20px rgb(12, 12, 12);
+    padding: 0 20px;
+  }
+  
+  * {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+  }
+  
+  .header a:hover {
+    color: #f3912e;
+    transition: 1s;
+    transition-delay: 0.3s;
+    transform: scale(1.1);
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 60px;
+    margin-right: 10px;
+  }
+  

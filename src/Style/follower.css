@@ -1,0 +1,37 @@
+.followers-list {
+margin-top: 2rem;
+  display: flex;
+flex-wrap: wrap;
+  }
+  .follower-item{
+    cursor: pointer;
+  flex: 10%;
+  max-width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0.5rem;
+  }
+  .follower-item:hover{
+    box-shadow: 0 0.25rem 05rem #f3912e;
+    background-color: #f3912e;
+    transition: 1s;
+    transition-delay: 0.3s;
+     transform: scale(1.1);
+  }
+
+  .follower-item img {
+    width: 6rem;
+    height: 6rem;
+   
+  }
+  .follower-item h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .followers-heading{
+text-align: center;
+margin-top: 5rem;
+font-size: 3rem;
+  }

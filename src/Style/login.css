@@ -1,0 +1,83 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    /* min-height: 0vh; */
+    /* background-color: #f5f5f5; */
+    }
+    
+    .login-page > div {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+    
+    .login-page h3 {
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    }
+    
+    .login-page form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .login-page .form-group {
+    margin-bottom: 1rem;
+    }
+    
+    .login-page label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    }
+    
+    .login-page input[type="email"],
+    .login-page input[type="password"] {
+    padding: 0.5rem 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    width: 91%;
+    outline: none;
+    }
+    
+    .login-page input[type="email"]:focus,
+    .login-page input[type="password"]:focus {
+    border-color: #5e5e5e;
+    }
+    
+    .login-submit-btn {
+    background-color:#f3912e;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    .login-submit-btn:hover {
+        background-color:#f0ae6c;
+    }
+    
+    .signup {
+    text-align: center;
+    margin-top: 1rem;
+    }
+    
+    .signup a {
+    color:#f3912e;
+    text-decoration: none;
+    }
+    
+    .signup a:hover {
+    text-decoration: underline;
+    }

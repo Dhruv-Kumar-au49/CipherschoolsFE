@@ -1,0 +1,64 @@
+.homepage-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .courses-btn{
+border-radius: 10px;
+    height: 3rem;
+    width: 15rem;
+    position: relative;
+    top: 1rem;
+    left: 14rem;
+background-color: #f3912e;
+  }
+  
+  .homepage-heading {
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #f3912e;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .about {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .founder {
+    position:absolute;
+    top: 5rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f8f8f8; */
+    height: 60vh;
+    width: 40%;
+    padding: 2rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+  }
+  
+  .founder img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .about-founder {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5;
+  }
